@@ -16,7 +16,7 @@ elif choice.lower() == "to the moon":
         print("Game Over")
     elif choice.lower() == "stay in orbit":
         choice=input("Choose(alien/asteroid/satellite) : ")
-        if choice.lower() in ["alien","asteroid"]:
+        if choice.lower()=="alien" or choice.lower=="asteroid":
             print("Game Over")
         elif choice.lower() == "satellite":
             print("You Win!!")
