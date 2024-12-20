@@ -16,7 +16,7 @@ elif user_choice.lower() == "upstairs":
         print("Game Over")
     elif user_choice.lower() == "stay outside":
         user_choice=input("Choose (ghost/vampire/werewolf) : ")
-        if user_choice.lower() in ["ghost","vampire"]:
+        if user_choice.lower() == "ghost" or user_choice.lower() == "vampire":
             print("Game Over")
         elif user_choice.lower() == "werewolf":
             print("You Win!!!")
