@@ -16,7 +16,7 @@ elif user_choice.lower() == "left":
         print("Game Over!")
     elif user_choice.lower() == "sail the ship":
         user_choice=input("Choose(shark/pirate ship/mermaid) : ")
-        if user_choice.lower() in ["shark","pirate ship"]:
+        if user_choice.lower()=="shark" or user_choice.lower()=="pirate ship":
             print("Game Over!")
         elif user_choice.lower() == "mermaid":
             print("You win.")
